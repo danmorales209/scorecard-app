@@ -1,0 +1,21 @@
+{
+  "name": "scorecard-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-web": "lerna run --scope bingo-app dev",
+    "start-snow": "lerna run --scope bingo-app snow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "snowpack": "^2.18.5"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.3.2"
+  }
+}
