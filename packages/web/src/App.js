@@ -1,11 +1,14 @@
 import { BingoCard } from './components';
+import { Container } from './layout';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <Container 
+      classNames={["App"]}
+    >
       <BingoCard />
-    </div>
+    </Container>
   );
 }
 
