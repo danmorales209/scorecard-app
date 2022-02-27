@@ -6,7 +6,7 @@ const Row = ({
     classNames,
     children,
     reverse = false,
-    ...props,
+    ...props
 }) => {
 
     const rowClassNames = [

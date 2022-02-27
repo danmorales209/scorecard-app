@@ -6,7 +6,8 @@
   "scripts": {
     "clean-slate": "npx lerna clean",
     "setup-project": "npm i && npx lerna bootstrap --hoist",
-    "start-web": "lerna run --scope web start --stream",
+    "start-app": "lerna run --scope @dm/app start --stream",
+    "start-storybook": "lerna run --scope @dm/storybook-bootstrap storybook --stream",
     "start-server": "echo \"look ma, I started the server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
