@@ -14,8 +14,7 @@
   "keywords": [],
   "author": "danmorales209@gmail.com",
   "license": "ISC",
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "lerna": "^5.1.8"
+  }
 }
